@@ -1,0 +1,76 @@
+.ts-web-test-app-channel-header-wrapper {
+  width: 1200px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+  .left-part {
+    display: flex;
+    height: 100%;
+    align-items: center;
+
+    .channel-id {
+      height: 22px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #64728c;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    .online-number {
+      height: 22px;
+      font-size: 12px;
+      color: #cfd3de;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+  }
+
+  .right-part {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+		.button-wrap {
+			height: 36px;
+			padding: 0 14px 0 8px;
+			margin-left: 12px;
+			border-radius: 4px;
+			border: solid 0.5px #cfd3de;
+      background-color: #fff;
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 500;
+      color: #929baa;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .icon {
+        width: 24px;
+        height: 24px;
+        margin-right: 4px;
+      }
+
+			.more-icon {
+        .icon();
+        background: url(../../../assets/image/more-info-24-24.svg) no-repeat center;
+      }
+
+
+      &:hover {
+        border: solid 0.5px #86b4ff;
+        color: #86b4ff;
+
+        .more-icon {
+          background: url(../../../assets/image/more-info-hover-24-24.svg) no-repeat center;
+        }
+      }
+		}
+	}
+}

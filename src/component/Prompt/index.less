@@ -1,0 +1,55 @@
+.ts-web-test-app-prompt-wrap {
+  width: 240px;
+  height: 280px;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+
+  .content-wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
+
+    .title {
+      display: flex;
+
+      .text{
+        flex: 1;
+        font-size: 16px;
+        font-weight: 500;
+        color: #38455d;
+      }
+
+      .close-btn {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        background: url('../../../assets/image/close-btn-icon.svg');
+      }
+    }
+
+    .content {
+      flex: 1;
+      font-size: 14px;
+      color: #1e6ceb;
+      margin-top: 8px;
+    }
+
+    .main-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      height: 32px;
+      border-radius: 6px;
+      box-shadow: 0 4px 12px 0 rgba(76, 138, 239, 0.5);
+      background-color: #1e6ceb;
+      font-size: 14px;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+}

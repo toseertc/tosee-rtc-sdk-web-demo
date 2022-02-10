@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+    <path stroke="#FF6B6B" d="M6 11.334l-1.482 2.222c-.221.332.017.778.416.778h6.132c.4 0 .637-.446.416-.778L10 11.334"/>
+    <path stroke="#FF6B6B" stroke-linecap="round" stroke-linejoin="round" d="M12 8V5.333c0-1.333-.8-4-4-4-.813 0-1.47.173-2 .451m5 8.97C10.386 11.464 9.434 12 8 12c-1.333-.11-4-1.066-4-4V5.333c0-.197.018-.423.058-.666"/>
+    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="M12 8V5.333c0-1.333-.8-4-4-4-.813 0-1.47.173-2 .451"/>
+    <path stroke="#FF6B6B" stroke-linecap="round" stroke-linejoin="round" d="M6.667 10.333h2.666"/>
+    <path stroke="#FF6B6B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.333" d="M4 2l8.667 8.667"/>
+    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="M7.333 3.418c.214-.055.437-.085.667-.085 1.473 0 2.667 1.194 2.667 2.667 0 .23-.03.454-.084.667"/>
+    <path stroke="#FF6B6B" stroke-linecap="round" stroke-linejoin="round" d="M8.667 8.583c-.213.055-.437.084-.667.084-1.473 0-2.667-1.194-2.667-2.667 0-.23.03-.453.085-.667"/>
+</svg>

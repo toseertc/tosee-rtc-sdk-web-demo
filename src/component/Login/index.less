@@ -1,0 +1,64 @@
+.ts-web-test-app-login-wrapper {
+	display: flex;
+	flex-direction: column;
+	font-family: AlibabaPuHuiTi;
+	color: white;
+	width: 327px;
+	font-size: 14px;
+
+	.login-item {
+		display: flex;
+		flex-direction: column;
+
+		.label {
+			.label-error-tip {
+				color: #ffa62f;
+			}
+		}
+
+		.input-content {
+			height: 29px;
+			border: 0;
+			border-bottom: 1px solid white;
+			background-color: #1e6ceb;
+			margin-bottom: 16px;
+			outline: none;
+			caret-color: white;
+			color: white;
+
+			&:focus, &.error-tip {
+				border-bottom: 1px solid #ffa62f;
+			}
+		}
+	}
+
+	.login-button {
+		height: 40px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid white;
+		margin-top: 9px;
+		outline: none;
+		cursor: pointer;
+
+		&:hover {
+			background-color: #0a61bd;
+			opacity: 0.5;
+		}
+
+		&.disable {
+			background-color: #0a61bd;
+			opacity: 0.5;
+			cursor: not-allowed
+		}
+	}
+
+	.login-status {
+		margin-top: 10px;
+    height: 20px;
+    text-align: center;
+		color: #ffa62f;
+		margin-top: 4px;
+	}
+}

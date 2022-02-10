@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+    <path stroke="#FF6B6B" stroke-linecap="round" stroke-linejoin="round" d="M10.507 12.042c-.748.399-1.6.625-2.507.625-2.72 0-4.964-2.036-5.292-4.667"/>
+    <path fill="#fff" fill-rule="evenodd" d="M13.293 8c-.042.33-.113.651-.212.96l.212-.96z" clip-rule="evenodd"/>
+    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="M13.293 8c-.042.33-.113.651-.212.96"/>
+    <path stroke="#FF6B6B" stroke-linecap="round" stroke-linejoin="round" d="M9.014 10.51c-.32.102-.66.157-1.014.157-1.841 0-3.334-1.493-3.334-3.334V6.161"/>
+    <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="M6.093 1.933c.54-.378 1.198-.6 1.907-.6 1.84 0 3.333 1.493 3.333 3.334v2.505"/>
+    <path stroke="#FF6B6B" stroke-width="1.333" d="M8 12.666v2"/>
+    <path stroke="#FF6B6B" stroke-linecap="round" stroke-linejoin="round" d="M4 14.667h8"/>
+    <path stroke="#FF6B6B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.333" d="M4 2.667l8.485 8.485"/>
+    <path stroke="#FF6B6B" stroke-linecap="round" d="M4.667 7.333h2"/>
+</svg>

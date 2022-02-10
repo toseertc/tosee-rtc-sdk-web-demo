@@ -1,0 +1,50 @@
+.ts-web-test-app-channel-layout-wrapper {
+  width: 100%;
+	height: 100%;
+	background-color: #fff;
+	position: relative;
+
+	.channel-header-wrap {
+		width: 100%;
+		height: 60px;
+		box-shadow: 0 4px 4px 0 rgba(56, 69, 93, 0.2);
+		background-color: #fff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+		z-index: 10;
+		top: 0;
+		left: 0;
+	}
+
+	.videos-container-wrap {
+		width: 100%;
+		height: 100%;
+		box-sizing: border-box;
+		padding-top: 60px;
+	}
+
+	.right-side-box-wrap {
+		position: absolute;
+		z-index: 9;
+		width: 100%;
+		height: calc(100% - 60px);
+		top: 60px;
+		right: 0;
+		background-color: rgba(56,69,93, 0.2);
+		overflow: auto;
+		display: flex;
+		justify-content: flex-end;
+
+		.right-side-box-content {
+			width: 375px;
+			height: 100%;
+			background-color: white;
+		}
+	}
+
+	.hidden {
+		visibility: hidden;
+	}
+}
